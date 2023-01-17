@@ -1,0 +1,57 @@
+body {
+    background-color: blue;
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(140, 189, 246);
+}
+
+header > nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    font-family: qokijo, sans-serif;
+}
+
+nav > a:hover {
+    color: white;
+    font-style: bold;
+}
+
+h1 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    padding: 110px;
+    font-family: qokijo, sans-serif;
+    font-size: 70px;
+    background-color: white;
+    color: black; 
+    background-image: url(raining_cereal.gif); 
+    text-shadow: 2px 2px #433d3d; 
+}
+
+main {
+    background-color: white;
+}
+
+.home {
+    background-color: rgb(180, 216, 255);
+}
+
+@font-face {
+    font-family: "qokijo";
+    src: url(Qokijo.ttf);
+  }
